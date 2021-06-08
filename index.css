@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.vl {
+  border-left: 1px solid grey;
+  height: 45px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+  margin-top: .5em;
+}
+/* .mid-divs {
+  border: 1px solid black;
+}
+
+.div-1 {
+  height: 25rem;
+  background-image: url('images/sunset.jpg');
+}
+
+.div-2 {
+  height: 25rem;
+  background-color: #ebedf0;
+}
+
+.div-3 {
+  height: 22rem;
+  background-color: blue;
+  color: white;
+}
+
+.div-4 {
+  height: 25rem;
+  background-color: #ebedf0;
+} */
+
+/* .mid-div-p {
+  width: 100%;
+} */
+
+.center-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid black;
+}
